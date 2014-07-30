@@ -15,7 +15,7 @@ A **single middle** mouse click removes the current wallpaper and sets the timer
 
 A **single right** mouse click pauses the timer (useful if you like the current wallpaper or simply don't want it to change)
 
-##Installation## 
+##Installation##
 With Python 2.7+ installed, simply download the two required files:
 
 * changeWallpaper.py
@@ -31,5 +31,5 @@ Once downloaded place open wallbaser.py in your favorite notepad program and cus
 ##Running##
 Once you are finished customizing it (everything in the **User Preferences** section in wallbaser.py is customizable) simply run wallbaser.py (you should be able to double click on it if Python is setup correctly)
 
-##Debug## 
+##Debug##
 If something goes wrong, close the python window (if it hasn't already) and check the wallbaser.log file in the same directory wallbaser.py is in. If you find a problem please feel free to post the log file as a issue on the Github repo at https://github.com/harrisonhjones/wallbaser/issues
