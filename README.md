@@ -3,7 +3,7 @@
 Wallbaser is a simple wallpaper changer which uses wallbase.cc as the source for new wallpapers to download. 
 
 ##How Does it Work##
-Every 5 minutes (configurable) wallbaser automatically choser to change the wallpaper from a cached wallpaper (your saved wallpapers) or download a new one. Which is chosen is random but can be weighted on way or another. Wallbaser's interface is a small 'info bar' on the bottom of your screen. It's location and size are configurable. Interfacing with the info bar is done using mouse clicks
+Every 5 minutes (configurable) wallbaser automatically choses to change the wallpaper from a cached wallpaper (your saved wallpapers) or download a new one. Which is chosen is random but can be weighted on way or another. Wallbaser's interface is a small 'info bar' on the bottom of your screen. It's location and size are configurable. Interfacing with the info bar is done using mouse clicks
 
 ###Interfacing###
 
