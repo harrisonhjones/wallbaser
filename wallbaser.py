@@ -53,6 +53,9 @@ class Wallbaser(wx.Frame):
         self.SetClientSize( (self.width,self.height) )
         self.SetBackgroundColour(self.backgroundColor)
         
+        # Set the info bar to be transparent
+        self.SetTransparent( 175 ) 
+
         # Initalize the timer to tick once a second
         self.timer = wx.Timer(self)
         self.Bind(wx.EVT_TIMER, self.OnTimer, self.timer)
