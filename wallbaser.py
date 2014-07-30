@@ -75,7 +75,7 @@ class Wallbaser(wx.Frame):
         self.Show()
 
     def RemoveCurrentWallpaper(self, evt):
-        print "Removing wallpaper with filename '" + self.wallpaperFolderPath + wallpaper + "'"
+        print "Removing wallpaper with filename '" + self.wallpaperFolderPath + self.wallpaperFilename + "'"
         # Tell the OS to remove the current wallpaper
         os.remove(self.wallpaperFolderPath + self.wallpaperFilename) 
         # Set the countdown timer to 1 seconds so the wallpaper will change soon
