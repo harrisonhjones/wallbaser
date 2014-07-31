@@ -1,4 +1,5 @@
-#Wallbaser#
+![wallbaser logo. Looks like the word wallbase with a differently colored "r" at the end](https://raw.githubusercontent.com/harrisonhjones/wallbaser/master/logo.png "Wallbaser logo")
+
 ##What is it?##
 Wallbaser is a simple wallpaper changer which uses wallbase.cc as the source for new wallpapers to download. 
 
