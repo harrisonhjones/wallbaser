@@ -253,8 +253,9 @@ class Wallbaser(wx.Frame):
         return len(onlyfiles)
 
 if __name__ == '__main__':
-    # Remove the old log file
-    os.remove("wallbaser.log")
+    # Remove the old log file if it exists
+    if os.path.isfile("wallbaser.log"):
+        os.remove("wallbaser.log")
     # Initalize the application to redirect all print statements to the log file 
     app = wx.App(redirect=True,filename="wallbaser.log")
     # Initalize the wxFrame Wallbaser
